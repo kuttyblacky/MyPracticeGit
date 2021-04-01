@@ -42,8 +42,8 @@ public class ReverseString {
 		
 		//Type - 3 String Buffer
 		
-		StringBuffer SB=new StringBuffer();
-		SB.append(value);
+		StringBuffer SB=new StringBuffer(value);
+		//SB.append(value);
 		StringBuffer reverse = SB.reverse();
 		
 		System.out.println(reverse);
